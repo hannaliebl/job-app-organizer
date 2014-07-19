@@ -1,0 +1,20 @@
+{
+  "name": "job-app-organizer",
+  "version": "0.0.0",
+  "description": "An app to keep of jobs you have applied to and want to apply to",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Hanna Liebl",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "consolidate": "^0.10.0",
+    "express": "^4.5.1",
+    "hogan.js": "^3.0.2",
+    "morgan": "^1.1.1",
+    "orchestrate": "^0.1.2"
+  }
+}
